@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    /* background-color: rgb(239, 239, 137); */
+}
+
+.container img {
+    /* z-index: -1000; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+header {
+    padding: 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(236 243 255);
+
+}
+
+.left-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
+}
+
+.left-side img {
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem;
+}
+
+.left-side input {
+    border: none;
+    padding: 1rem 0.5rem;
+    background-color: rgb(236 243 255);
+}
+
+.left-side input:active {
+    border: none;
+    /* padding: 1rem 0.5rem; */
+}
+
+.search-box {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.search-box img {
+
+    top: 0.4rem;
+}
+
+.right-side {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 3rem;
+
+
+}
+
+.right-side li {
+    margin: 1rem;
+    list-style: none;
+}
+
+.sc {
+    padding: 0.2rem 0.45rem;
+    background-image: url(ass/Ellipse\ 14.png);
+    color: white;
+    scale: 2;
+    background-repeat: no-repeat;
+}
+
+/* .right-side img{
+    padding: 0 1rem;
+} */
+.images img {
+    margin: 0 0.3rem;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navigation nav ul li {
+    list-style: none;
+}
+
+.navigation nav ul {
+    background-color: rgb(236 243 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.torepage {
+    display: table;
+    position: relative;
+    background-repeat: no-repeat;
+    padding: 1.5rem 5rem;
+
+}
+
+.torepage-text {
+    position: absolute;
+    top: 35px;
+}
+
+.text-1 {
+    margin: 1.2rem;
+    justify-content: space-around;
+}
+
+.text-2 {
+    margin: 1.5rem;
+    justify-content: space-around;
+}
+
+.moto {
+    display: flex;
+    background-image: url(ass/Group\ 1255.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    /* padding: 2rem; */
+
+}
+
+.left-part {
+    padding: 2rem;
+    width: 50%;
+    color: #005DF2;
+    /* z-index: 100; */
+}
+
+span {
+    color: orange;
+}
+
+.heading {
+    font-family: 'Gloock', serif;
+    font-size: 45px;
+    padding: 1.5rem 5rem;
+}
+
+.caption {
+    padding: 1.5rem 5rem;
+    font-size: 1.3rem;
+    color: rgb(78, 78, 249);
+}
+
+.right-part {
+    width: 50%;
+}
+
+.buttons {
+    padding: 1.5rem 5rem;
+}
+
+.left-part button {
+    margin: 0 1rem;
+    padding: 0.8rem 3rem;
+    border-radius: 5px;
+    /* border: none; */
+}
+
+.btn-orange {
+    text-align: center;
+    background-color: orange;
+    color: white;
+    border: none
+}
+
+.btn-blue {
+    color: blue;
+    border: 1px solid blue;
+    background-color: white;
+}
+
+.text-1 button {
+    padding: 0.5rem 1rem;
+    background-color: rgb(227, 247, 255);
+    border: none;
+    color: blue;
+    border-radius: 20px;
+}
+
+.text-2 button {
+    padding: 0.5rem 1rem;
+    background-color: rgb(227, 247, 255);
+    border: none;
+    color: blue;
+    border-radius: 20px;
+}
+
+.our-services {
+    background-color: white;
+    box-shadow: 1rem;
+}
+
+.head-1 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Gloock', serif;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.subheading {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Gloock', serif;
+}
+
+.block {
+    display: flex;
+    padding: 1.5rem 5rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.block img {
+    border: 3rem solid rgb(227, 247, 255);
+    margin: 2rem 0;
+    height: 8rem;
+}
+
+.desciprion {
+    margin-right: 0 4rem 3rem 1rem;
+    width: 30%;
+    margin: 2rem 0;
+}
+
+.text-head {
+    font-size: 2rem;
+    margin: 1rem 0;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.block-btn {
+    margin: 2rem 0;
+    padding: 1rem 3rem;
+    color: white;
+    background-color: #005DF2;
+
+    border-radius: 10px;
+    border: none;
+}
+
+.desciprion p {
+    font-family: 'Golos Text', sans-serif;
+}
+
+.about-us {
+    background-image: url(ass/Group\ 1256.png);
+    padding: 1.5rem 5rem;
+}
+
+.why-us {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    padding: 1.5rem 5rem;
+    background-color: rgb(227, 247, 255);
+}
+
+.content {
+    display: flex;
+}
+
+.right-side-us {
+    display: flex;
+    padding: 0rem 2rem;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.d1-sec1 {
+    /* padding: 2rem; */
+    width: 60%;
+    font-family: 'Golos Text', sans-serif;
+
+}
+
+.d1-sec1 p {
+    padding: 1.5rem 0;
+}
+
+.d1-sec1 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+
+.right-side-us img {
+    border: 0rem solid rgb(227, 247, 255);
+    padding: 2rem;
+
+}
+
+.latest-news {
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll-1 {
+    /* image: url(ass/Vector\ 55.png); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    font-family: 'Golos Text', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 5rem;
+    /* justify-content: space-around; */
+    width: 20%;
+}
+
+.temp {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+.temp p {
+    padding: 1rem;
+}
+
+.temp-b {
+    margin: 1rem 0;
+    padding: 0.8rem 3rem;
+    color: white;
+    background-color: rgb(72, 72, 251);
+    border-radius: 10px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mid-btn {
+    font-family: 'Golos Text', sans-serif;
+    margin: 1rem 41rem;
+    padding: 0.8rem 3rem;
+    border-radius: 5px;
+    color: blue;
+    border: 1px solid blue;
+    background-color: white;
+    font-size: 1rem;
+}
+
+.customer-says {
+    font-family: 'Golos Text', sans-serif;
+    background-image: url(ass/Group\ 1253.png);
+    margin-bottom: 3rem;
+    background-repeat: no-repeat;
+}
+
+.customerfeed {
+    margin: 7rem 5rem;
+    display: flex;
+    /* width: 50%; */
+    justify-content: space-around;
+
+}
+
+.feed-1 {
+    /* justify-content: center;
+     */
+
+    text-align: center;
+    width: 40%;
+}
+
+.feed-1 p {
+    padding: 1rem;
+}
+
+.foot ul {
+    display: flex;
+    /* margin: 0 41rem; */
+    justify-content: center;
+}
+
+.foot ul li {
+    scale: 0.8;
+    /* display: flex; */
+    list-style: none;
+    flex-direction: row;
+    margin: 0.4rem;
+}
+
+.major-clients {}
+
+.major-img ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.major-img li {
+    margin: 3rem;
+}
+
+footer {
+    padding: 3rem;
+    background-color: #061C41;
+    ;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.first-part {
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutimg {
+    margin: 2rem;
+    width: 25%;
+}
+
+.aboutimg p {
+    font-size: 0.7rem;
+    margin: 1rem 0rem;
+}
+
+.us {
+    display: flex;
+    flex-direction: column;
+    /* width: 25%; */
+}
+
+.us ul {
+    list-style: none;
+}
+
+.us ul li {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.quick-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.quick-links ul {
+    list-style: none;
+}
+
+.quick-links ul li {
+    padding: 0.5rem;
+}
+
+.subscribe {
+    /* margin: 3; */
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe ul {
+    list-style: none;
+}
+
+.subscribe ul li {
+    padding: 0.5rem;
+}
+
+.subscribe input {
+    background-color: #061C41;
+    border: 1px solid white;
+    padding: 1rem 3rem;
+    border-radius: 0.4rem;
+    color: white;
+}
+
+.subscribe button {
+    font-family: 'Golos Text', sans-serif;
+    padding: 0.8rem 3rem;
+    background-color: #F89F1C;
+    border-radius: 10px;
+
+}
+
+.last-part {
+    text-align: center;
+}
+
+.last-part hr {
+    margin: 1rem 0;
+}
